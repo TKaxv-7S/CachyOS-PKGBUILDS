@@ -1,6 +1,6 @@
 pkgbase = lib32-gamescope
 	pkgdesc = WSI Layer for use with gamescope (32-bit)
-	pkgver = 3.16.22
+	pkgver = 3.16.23
 	pkgrel = 1
 	url = https://github.com/ValveSoftware/gamescope
 	arch = x86_64
@@ -11,13 +11,13 @@ pkgbase = lib32-gamescope
 	makedepends = ninja
 	makedepends = vulkan-headers
 	makedepends = wayland-protocols
-	depends = gamescope=3.16.22
+	depends = gamescope=3.16.23
 	depends = lib32-libx11
 	depends = lib32-libxcb
 	depends = lib32-vulkan-icd-loader
 	depends = lib32-wayland
 	replaces = lib32-gamescope-plus
-	source = git+https://github.com/ValveSoftware/gamescope#tag=3.16.22
-	sha256sums = 6d7da9ec3a08964c8fb0c4719f425ca40cd3016620d5a877ca85cf1b97b47507
+	source = git+https://github.com/ValveSoftware/gamescope#tag=3.16.23
+	sha256sums = c492b39038c33d5cdff389ad75dab165db552095d86a1c61ec378e18062c0a5a
 
 pkgname = lib32-gamescope
