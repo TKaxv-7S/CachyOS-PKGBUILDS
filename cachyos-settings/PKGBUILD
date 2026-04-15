@@ -3,7 +3,7 @@
 _gitname=CachyOS-Settings
 pkgname=cachyos-settings
 pkgver=1.3.4
-pkgrel=1
+pkgrel=2
 epoch=1
 groups=(cachyos)
 arch=('any')
@@ -33,6 +33,7 @@ optdepends=('libluv: for topmem'
 provides=('ntsync-common')
 prepare() {
   cd $_gitname
+  git cherry-pick -n d20a4d72150ffceccb4085fc5645c9208792e77b
 }
 package() {
   install -d "$pkgdir/etc"
