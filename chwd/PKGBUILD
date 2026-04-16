@@ -2,7 +2,7 @@
 # Contributor: Vasiliy Stelmachenok <ventureo@yandex.ru>
 
 pkgname=chwd
-pkgver=1.20.1
+pkgver=1.20.2
 pkgrel=1
 pkgdesc="CachyOS Hardware Detection Tool"
 arch=(x86_64)
@@ -15,7 +15,7 @@ replaces=('chwd-db')
 conflicts=('chwd-db')
 groups=('cachyos')
 source=("chwd::git+$url.git#tag=${pkgver}?signed")
-sha256sums=('cf12caac68b5131b22f72e9a022a6bc46f519d87b2d4090493001d587ab05061')
+sha256sums=('42bcdc7c2ca2f258045504c7ebdf9476bd7cd833b4fa0c2ec4ee5ed343af32a5')
 validpgpkeys=(
   'B1B70BB1CD56047DEF31DE2EB62C3D10C54D5DA9'  # Vladislav Nepogodin <nepogodin.vlad@gmail.com>
 )
